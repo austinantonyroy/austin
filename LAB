@@ -1,0 +1,51 @@
+3. create a file and add
+git clone
+cd (repo name)
+git status
+git add -A
+git commit -m "sdasd"
+git push origin main
+
+3 git branch and change to other
+git clone "url"
+git branch (name)
+git checkout (name) or (chaange the branch) git checkout -b (name)
+git merge (name)
+git push origin main
+
+git push origin --delete (name)
+
+5. forked
+git clone (forked our new repo url)
+cd (other person url)
+git remote add upstream (other person url)
+git fetch upstream
+git branch
+git merge upstream /main
+git push origin main
+
+6. core
+git clone (1 repo link)
+Cd (repo name)
+git submodule add (2 repo link)
+git status
+git add -A
+gi commit -m ""
+git push -u origin main
+git submodule deinit -f(2 repo name)
+git config --global alias.st status
+git st
+
+4.work repo
+git clone url
+git remote add origin url
+git push origin main
+git pull origin main
+
+2. config
+git init
+git config --global user.name "name"
+git config --glabal user.email "email"
+git config init.defaultBranch main
+git config --list
+
